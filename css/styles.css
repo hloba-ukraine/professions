@@ -301,7 +301,7 @@ p {
 }
 @media (min-width: 768px) {
   .main-img {
-    content: url(/images/herodecst.png);
+    content: url(./images/herodecst.png);
   }
 }
 .group-item {
