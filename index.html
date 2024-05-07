@@ -4,14 +4,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Web studio page effective Solutions for Your Business"
-    />
+    <meta name="description" content="" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
       rel="stylesheet"
     />
     <link
@@ -22,605 +19,624 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>Web Studio</title>
+    <title>Proffesions</title>
   </head>
   <body>
     <!--Had page-->
     <header class="header-border">
-      <div class="container header-main">
+      <div class="container-header header-main">
         <nav class="header-nav">
           <a href="./index.html" class="logo list logo-header"
-            >Web<span class="logo-two">Studio</span></a
-          >
+            ><svg width="144" height="25">
+              <use href="../images/defs.svg#icon-Menu"></use>
+            </svg>
+          </a>
+
           <ul class="list list-header">
             <li>
-              <a href="./index.html" class="link list header-link current"
-                >Studio</a
+              <a href="./index.html" class="link header-link current"
+                >Головна</a
               >
             </li>
             <li>
-              <a href="./portfolio.html" class="link list header-link"
-                >Portfolio</a
-              >
+              <a href="" class="link header-link">Про нас</a>
             </li>
             <li>
-              <a href="" class="link list header-link">Contacts</a>
+              <a href="" class="link header-link">Професії</a>
             </li>
           </ul>
         </nav>
-        <address class="adress-style">
-          <ul class="list adress-list">
-            <li class="list">
-              <a href="mailto:info@devstudio.com" class="link mail-phone"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="list">
-              <a href="tel:+110001111111" class="link mail-phone"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
+        <div class="reg-btn">
+          <button class="button-main btn-header" type="button">Увійти</button>
+          <button class="button-main btn-header" type="button">
+            Створити Аккаунт
+          </button>
+        </div>
+
         <button
           class="menu-toggle-burger js-open-menu"
           aria-expanded="false"
           aria-controls="mobile-menu"
         >
-          <svg class="mobile-menu-icon" width="32" height="22">
-            <use href="./images/burger-menu1.svg#icon-burger-menu"></use>
+          <svg class="mobile-menu-icon" width="24" height="24">
+            <use href="./images/12.svg#Burger-menu"></use>
           </svg>
         </button>
       </div>
     </header>
+    <!------------------------->
     <!--Main content for page-->
     <main>
-      <section class="main-section">
-        <div class="container">
-          <h1 class="title-big">Effective Solutions for Your Business</h1>
-          <button type="button" class="button-main" data-modal-open>
-            Order Service
-          </button>
+      <section class="container">
+        <div class="main-links">
+          <div class="links-for-mainpage">
+            <a href="" class="link mainpage-link">Головна</a
+            ><svg width="16" height="16">
+              <use href="../images/defs.svg#icon-Caret"></use>
+            </svg>
+          </div>
+          <a href="" class="link prof-page-link">Професії</a>
         </div>
-      </section>
-      <section class="sec-padding" id="Features">
-        <div class="container section-features">
-          <h2 class="visually-hidden">Features</h2>
-          <ul class="list list-section-features-text">
-            <li class="features-item">
-              <div class="icon-features">
-                <svg width="64" height="64">
-                  <use href="./images/icons.svg#icon-antenna-1"></use>
+        <h1 class="main-title">Професії</h1>
+        <p class="main-text">
+          Вибір професії — серйозний крок. Щоб ви здійснили його усвідомлено та
+          обрали спеціальність до душі, ми підготували інструкцію «Як вибрати,
+          на кого вчитися». А за допомогою цього розділу ви можете дізнатися про
+          специфіку різних спеціальностей, плюси і мінуси кожної та серед
+          безлічі професій знайти свою.
+        </p>
+        <img class="main-img" src="./images/heroimg.png" />
+        <ul class="list group-list">
+          <li class="group-item-main">
+            <div class="group-item">
+              <p class="group-text">Группа 1</p>
+              <button class="open openMore" type="button">
+                <svg class="fill-add" width="24" height="24">
+                  <use
+                    class="changeIcon"
+                    href="../images/defs.svg#icon-Add"
+                  ></use>
                 </svg>
-              </div>
-              <h3 class="title-features">Strategy</h3>
-              <p class="paragraf">
-                Our goal is to identify the business problem to walk away with
-                the perfect and creative solution.
-              </p>
-            </li>
-            <li class="features-item">
-              <div class="icon-features">
-                <svg width="64" height="64">
-                  <use href="./images/icons.svg#icon-clock-1"></use>
-                </svg>
-              </div>
-              <h3 class="title-features">Punctuality</h3>
-              <p class="paragraf">
-                Bring the key message to the brand's audience for the best price
-                within the shortest possible time.
-              </p>
-            </li>
-            <li class="features-item">
-              <div class="icon-features">
-                <svg width="64" height="64">
-                  <use href="./images/icons.svg#icon-diagram-1"></use>
-                </svg>
-              </div>
-              <h3 class="title-features">Diligence</h3>
-              <p class="paragraf">
-                Research and confirm brands that present the strongest digital
-                growth opportunities and minimize risk.
-              </p>
-            </li>
+              </button>
+            </div>
 
-            <li class="features-item">
-              <div class="icon-features">
-                <svg width="64" height="64">
-                  <use href="./images/icons.svg#icon-astronaut-1"></use>
+            <div class="group-item-more closeMore">
+              <ul class="list">
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="group-item-main">
+            <div class="group-item">
+              <p class="group-text">Группа 1</p>
+              <button class="open openMore" type="button">
+                <svg class="fill-add" width="24" height="24">
+                  <use
+                    class="changeIcon"
+                    href="../images/defs.svg#icon-Add"
+                  ></use>
                 </svg>
-              </div>
-              <h3 class="title-features">Technologies</h3>
-              <p class="paragraf">
-                Design practice focused on digital experiences. We bring forth a
-                deep passion for problem-solving.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="sec-paddingcenter" id="What-are-we-doing">
-        <div class="container section-features">
-          <h2 class="header-medium title-wawd">What are we doing</h2>
-          <ul class="list list-wawd">
-            <li class="item-wawd">
-              <img
-                srcset="./images/img1sq x1, ./images/img1sq@2 x2"
-                src="./images/img1sq.jpg"
-                alt="monitor"
-                width="360"
-              />
-            </li>
-            <li class="item-wawd">
-              <img
-                srcset="./images/img2sq x1, ./images/img2sq@2 x2"
-                src="./images/img2sq.jpg"
-                alt="phone and screnshot"
-                width="360"
-              />
-            </li>
-            <li class="item-wawd">
-              <img
-                srcset="./images/img3sq x1, ./images/img3sq@2 x2"
-                src="./images/img3sq.jpg"
-                alt="just phone"
-                width="360"
-              />
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section id="our-team" class="cloud-background sec-padding">
-        <div class="container section-ourteam tablet-section">
-          <h2 class="header-medium title-ourteam">Our Team</h2>
-          <ul class="list list-ourteam">
-            <li class="card-team item-our-team">
-              <img
-                class="img-our-team"
-                srcset="./images/imgsq x1, ./images/imgsq@2 x2"
-                src="./images/imgsq.jpg"
-                alt="Mark Guerrero"
-                width="264"
-                height="260"
-              />
-              <div class="name-team">
-                <h3 class="header-small title-name">Mark Guerrero</h3>
-                <p class="paragraf name-text">Product Designer</p>
-                <ul class="list social-link social-item">
-                  <li class="social-link">
-                    <a href="" class="link">
-                      <svg width="16" height="16" class="section-ourteam-icon">
-                        <use href="./images/icons.svg#icon-instagram-2"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-link">
-                    <a href="" class="link">
-                      <svg width="16" height="16" class="section-ourteam-icon">
-                        <use href="./images/icons.svg#icon-twitter-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-link">
-                    <a href="" class="link">
-                      <svg width="16" height="16" class="section-ourteam-icon">
-                        <use href="./images/icons.svg#icon-facebook-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-link">
-                    <a href="" class="link">
-                      <svg width="16" height="16" class="section-ourteam-icon">
-                        <use href="./images/icons.svg#icon-linkedin-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="card-team item-our-team">
-              <img
-                class="img-our-team"
-                srcset="./images/img(1)sq x1, ./images/img(1)sq@2 x2"
-                src="./images/img(1)sq.jpg"
-                alt="Tom Ford"
-                width="264"
-                height="260"
-              />
-              <div class="name-team">
-                <h3 class="header-small title-name">Tom Ford</h3>
-                <p class="paragraf name-text">Frontend Developer</p>
-                <ul class="list social-link social-item">
-                  <li class="social-link">
-                    <a href="" class="link">
-                      <svg width="16" height="16" class="section-ourteam-icon">
-                        <use href="./images/icons.svg#icon-instagram-2"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-link">
-                    <a href="" class="link">
-                      <svg width="16" height="16" class="section-ourteam-icon">
-                        <use href="./images/icons.svg#icon-twitter-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-link">
-                    <a href="" class="link">
-                      <svg width="16" height="16" class="section-ourteam-icon">
-                        <use href="./images/icons.svg#icon-facebook-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-link">
-                    <a href="" class="link">
-                      <svg width="16" height="16" class="section-ourteam-icon">
-                        <use href="./images/icons.svg#icon-linkedin-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="card-team item-our-team">
-              <img
-                class="img-our-team"
-                srcset="./images/img(2)sq x1, ./images/img(2)sq@2 x2"
-                src="./images/img(2)sq.jpg"
-                alt="Camila Garcia"
-                width="264"
-                height="260"
-              />
-              <div class="name-team">
-                <h3 class="header-small title-name">Camila Garcia</h3>
-                <p class="paragraf name-text">Marketing</p>
-                <ul class="list social-link social-item">
-                  <li class="social-link">
-                    <a href="" class="link">
-                      <svg width="16" height="16" class="section-ourteam-icon">
-                        <use href="./images/icons.svg#icon-instagram-2"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-link">
-                    <a href="" class="link">
-                      <svg width="16" height="16" class="section-ourteam-icon">
-                        <use href="./images/icons.svg#icon-twitter-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-link">
-                    <a href="" class="link">
-                      <svg width="16" height="16" class="section-ourteam-icon">
-                        <use href="./images/icons.svg#icon-facebook-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-link">
-                    <a href="" class="link">
-                      <svg width="16" height="16" class="section-ourteam-icon">
-                        <use href="./images/icons.svg#icon-linkedin-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="card-team item-our-team">
-              <img
-                class="img-our-team"
-                srcset="./images/img(3)sq x1, ./images/img(3)sq@2 x2"
-                src="./images/img(3)sq.jpg"
-                alt="Daniel Wilson"
-                width="264"
-                height="260"
-              />
-              <div class="name-team">
-                <h3 class="header-small title-name">Daniel Wilson</h3>
-                <p class="paragraf name-text">UI Designer</p>
-                <ul class="list social-link social-item">
-                  <li class="social-link">
-                    <a href="" class="link">
-                      <svg width="16" height="16" class="section-ourteam-icon">
-                        <use href="./images/icons.svg#icon-instagram-2"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-link">
-                    <a href="" class="link">
-                      <svg width="16" height="16" class="section-ourteam-icon">
-                        <use href="./images/icons.svg#icon-twitter-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-link">
-                    <a href="" class="link">
-                      <svg width="16" height="16" class="section-ourteam-icon">
-                        <use href="./images/icons.svg#icon-facebook-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-link">
-                    <a href="" class="link">
-                      <svg width="16" height="16" class="section-ourteam-icon">
-                        <use href="./images/icons.svg#icon-linkedin-1"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="section-customers">
-        <div class="container tablet-section">
-          <h2 class="header-medium title-customers">Customers</h2>
-          <ul class="list section-customers-list">
-            <li class="section-customers-item">
-              <a href="" class="customers-link">
-                <svg width="104" height="56" class="customers-icon">
-                  <use href="./images/icons.svg#icon-Logo"></use>
+              </button>
+            </div>
+
+            <div class="group-item-more closeMore">
+              <ul class="list">
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="group-item-main">
+            <div class="group-item">
+              <p class="group-text">Группа 1</p>
+              <button class="open openMore" type="button">
+                <svg class="fill-add" width="24" height="24">
+                  <use
+                    class="changeIcon"
+                    href="../images/defs.svg#icon-Add"
+                  ></use>
                 </svg>
-              </a>
-            </li>
-            <li class="section-customers-item">
-              <a href="" class="customers-link">
-                <svg width="104" height="56" class="customers-icon">
-                  <use href="./images/icons.svg#icon-Logo-1"></use>
+              </button>
+            </div>
+
+            <div class="group-item-more closeMore">
+              <ul class="list">
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="group-item-main">
+            <div class="group-item">
+              <p class="group-text">Группа 1</p>
+              <button class="open openMore" type="button">
+                <svg class="fill-add" width="24" height="24">
+                  <use
+                    class="changeIcon"
+                    href="../images/defs.svg#icon-Add"
+                  ></use>
                 </svg>
-              </a>
-            </li>
-            <li class="section-customers-item">
-              <a href="" class="customers-link">
-                <svg width="104" height="56" class="customers-icon">
-                  <use href="./images/icons.svg#icon-Logo-2"></use>
+              </button>
+            </div>
+
+            <div class="group-item-more closeMore">
+              <ul class="list">
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="group-item-main">
+            <div class="group-item">
+              <p class="group-text">Группа 1</p>
+              <button class="open openMore" type="button">
+                <svg class="fill-add" width="24" height="24">
+                  <use
+                    class="changeIcon"
+                    href="../images/defs.svg#icon-Add"
+                  ></use>
                 </svg>
-              </a>
-            </li>
-            <li class="section-customers-item">
-              <a href="" class="customers-link">
-                <svg width="104" height="56" class="customers-icon">
-                  <use href="./images/icons.svg#icon-Logo-3"></use>
+              </button>
+            </div>
+
+            <div class="group-item-more closeMore">
+              <ul class="list">
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="group-item-main">
+            <div class="group-item">
+              <p class="group-text">Группа 1</p>
+              <button class="open openMore" type="button">
+                <svg class="fill-add" width="24" height="24">
+                  <use
+                    class="changeIcon"
+                    href="../images/defs.svg#icon-Add"
+                  ></use>
                 </svg>
-              </a>
-            </li>
-            <li class="section-customers-item">
-              <a href="" class="customers-link">
-                <svg width="104" height="56" class="customers-icon">
-                  <use href="./images/icons.svg#icon-Logo-4"></use>
+              </button>
+            </div>
+
+            <div class="group-item-more closeMore">
+              <ul class="list">
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="group-item-main">
+            <div class="group-item">
+              <p class="group-text">Группа 1</p>
+              <button class="open openMore" type="button">
+                <svg class="fill-add" width="24" height="24">
+                  <use
+                    class="changeIcon"
+                    href="../images/defs.svg#icon-Add"
+                  ></use>
                 </svg>
-              </a>
-            </li>
-            <li class="section-customers-item">
-              <a href="" class="customers-link">
-                <svg width="104" height="56" class="customers-icon">
-                  <use href="./images/icons.svg#icon-Logo-5"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
+              </button>
+            </div>
+
+            <div class="group-item-more closeMore">
+              <ul class="list">
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="">
+                  <a class="item-prof link" href=""
+                    ><p>Професія 1</p>
+                    <svg class="" width="24" height="24">
+                      <use href="../images/defs.svg#icon-Chevron"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
       </section>
     </main>
+    <!------------------------->
     <!--footer page-->
-    <footer class="footer-background footer-section">
-      <div class="container footer-content tablet-section">
-        <div class="footer-item tablet">
-          <a href="./index.html" class="logo footer-link"
-            >Web<span class="logo-three">Studio</span></a
-          >
-          <p class="footer-text">
-            Increase the flow of customers and sales for your business with
-            digital marketing & growth solutions.
-          </p>
-        </div>
-        <div class="tablet">
-          <p class="social-footer-text">Social media</p>
-          <ul class="list social-link-footer social-footer">
-            <li class="footer-list-item">
-              <a href="" class="link">
-                <svg width="24" height="24" class="section-footer-icon">
-                  <use href="./images/icons.svg#icon-instagram-2"></use>
+    <footer class="footer-container">
+      <div class="footer-box">
+        <svg class="footer-logo" width="252" height="44">
+          <use href="../images/defs.svg#icon-Menu"></use>
+        </svg>
+        <div>
+          <ul class="list social-footer-list">
+            <li class="">
+              <a class="social-footer-item link" href="">
+                <svg class="telegram-icon" width="32" height="32">
+                  <use href="../images/social.svg#icon-telegram"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-list-item">
-              <a href="" class="link">
-                <svg width="24" height="24" class="section-footer-icon">
-                  <use href="./images/icons.svg#icon-twitter-1"></use>
+            <li class="">
+              <a class="social-footer-item link" href="">
+                <svg class="" width="32" height="32">
+                  <use href="../images/social.svg#icon-inst"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-list-item">
-              <a href="" class="link">
-                <svg width="24" height="24" class="section-footer-icon">
-                  <use href="./images/icons.svg#icon-facebook-1"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-list-item">
-              <a href="" class="link">
-                <svg width="24" height="24" class="section-footer-icon">
-                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+            <li class="">
+              <a class="social-footer-item link" href="">
+                <svg class="" width="32" height="32">
+                  <use href="../images/in.svg#Social"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-        <div class="footer-form-container">
-          <p class="footer-form-text">Subscribe</p>
-          <form class="footer-form">
-            <label class="footer-form-label">
-              <input
-                class="footer-form-input"
-                name="emailsub"
-                type="email"
-                placeholder="E-mail"
-              />
-            </label>
-            <button class="footer-form-button" type="submit">
-              Subscribe
-              <svg width="24" height="24" class="footer-form-icon">
-                <use href="./images/icon-footer.svg#icon-Frame"></use>
-              </svg>
-            </button>
-          </form>
+        <div>
+          <address>
+            <a
+              class="link footer-adress-link"
+              href="malito:contact@studinfo.org"
+              >contact@studinfo.org</a
+            >
+          </address>
+        </div>
+        <div class="box-link">
+          <div class="box-terms-privacy">
+            <a class="privacy-link link" href="">Terms and Conditions</a
+            ><a class="privacy-link link" href="">Privacy Policy</a>
+          </div>
+          <a class="privacy-link link" href=""
+            >&copy;2024 All rights reserved</a
+          >
         </div>
       </div>
     </footer>
+    <!------------------------->
     <!--Mobile-menu-->
     <div class="menu-container js-menu-container" id="mobile-menu">
-      <button class="menu-toggle modal-button js-close-menu">
-        <svg width="8" height="8" class="button-close">
-          <use href="./images/icons.svg#icon-close-black"></use>
-        </svg>
-      </button>
+      <div class="mobile-box">
+        <a href="./index.html" class="list logo"
+          ><svg width="144" height="25">
+            <use href="../images/defs.svg#icon-Menu"></use>
+          </svg>
+        </a>
+        <button class="menu-toggle modal-button js-close-menu">
+          <svg width="24" height="24" class="button-close">
+            <use href="../images/defs.svg#icon-Dismiss"></use>
+          </svg>
+        </button>
+      </div>
 
       <ul class="list mobile-menu">
         <li>
-          <a href="./index.html" class="link list header-link current-mobile"
-            >Studio</a
-          >
+          <a href="" class="link text-mobile">Головна</a>
         </li>
         <li>
-          <a href="./portfolio.html" class="link list header-link text-mobile"
-            >Portfolio</a
-          >
+          <a href="" class="link text-mobile">Про нас</a>
         </li>
         <li>
-          <a href="" class="link list header-link text-mobile">Contacts</a>
+          <a href="" class="link current-mobile">Професії</a>
         </li>
       </ul>
-      <address class="adress-mobile">
-        <ul class="list adress-list-mobile">
-          <li class="list">
-            <a href="mailto:info@devstudio.com" class="link item-mail"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="list item-number">
-            <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
-          </li>
-        </ul>
-      </address>
-      <ul class="list social-link-footer social-mobile">
-        <li class="footer-list-item">
-          <a href="" class="link">
-            <svg width="24" height="24" class="section-footer-icon">
-              <use href="./images/icons.svg#icon-instagram-2"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="footer-list-item">
-          <a href="" class="link">
-            <svg width="24" height="24" class="section-footer-icon">
-              <use href="./images/icons.svg#icon-twitter-1"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="footer-list-item">
-          <a href="" class="link">
-            <svg width="24" height="24" class="section-footer-icon">
-              <use href="./images/icons.svg#icon-facebook-1"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="footer-list-item">
-          <a href="" class="link">
-            <svg width="24" height="24" class="section-footer-icon">
-              <use href="./images/icons.svg#icon-linkedin-1"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
-    </div>
-    <!--Modal Form-->
-    <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-        <button type="button" class="modal-button" data-modal-close>
-          <svg width="8" height="8" class="button-close">
-            <use href="./images/icons.svg#icon-close-black"></use>
-          </svg>
-        </button>
-        <p class="modal-form-text">
-          Leave your contacts and we will call you back
-        </p>
-        <form>
-          <div class="modal-form-div">
-            <label class="modal-form-label" for="user-name"> Name </label>
-            <div class="modal-form-input-div">
-              <input
-                class="modal-form-input"
-                id="user-name"
-                name="user-name"
-                type="text"
-              />
-              <svg width="18" height="24" class="modal-form-icon">
-                <use href="./images/icon-form.svg#icon-person-black"></use>
-              </svg>
-            </div>
-          </div>
-          <div class="modal-form-div">
-            <label class="modal-form-label" for="user-phone"> Phone </label>
-            <div class="modal-form-input-div">
-              <input
-                class="modal-form-input"
-                id="user-phone"
-                name="user-phone"
-                type="tel"
-              />
-              <svg width="18" height="24" class="modal-form-icon">
-                <use href="./images/icon-form.svg#icon-phone-black"></use>
-              </svg>
-            </div>
-          </div>
-          <div class="modal-form-div">
-            <label class="modal-form-label" for="user-email"> Email </label>
-            <div class="modal-form-input-div">
-              <input
-                class="modal-form-input"
-                id="user-email"
-                name="user-email"
-                type="email"
-              />
-              <svg width="18" height="24" class="modal-form-icon">
-                <use href="./images/icon-form.svg#icon-email-black"></use>
-              </svg>
-            </div>
-          </div>
-          <div class="modal-form-comment">
-            <label class="modal-form-label" for="user-comment"> Comment </label>
-            <textarea
-              class="modal-form-textarea"
-              id="user-comment"
-              name="user-comment"
-              placeholder="Text input"
-            ></textarea>
-          </div>
-          <div class="modal-checkbox">
-            <input
-              class="modal-form-checkbox visually-hidden"
-              name="user-privacy"
-              id="user-privacy"
-              type="checkbox"
-              value="true"
-            />
-            <label class="modal-checkbox-text" for="user-privacy"
-              ><span class="checkbox-span">
-                <svg width="10" height="8" class="checkbox-icon">
-                  <use href="./images/Vector2.svg#icon-Vector"></use>
-                </svg>
-              </span>
-              I accept the terms and conditions of the
-              <a class="link-checkbox" href="">Privacy Policy</a>
-            </label>
-          </div>
-          <button class="form-button" type="submit">Send</button>
-        </form>
+      <div class="mobile-reg-btn">
+        <button class="button-main" type="button">Увійти</button>
+        <butto class="button-main" type="button">Створити Аккаунт</butto>
       </div>
     </div>
-    <script src="./js/modal.js"></script>
+    <!------------------------->
     <script
       defer
       src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
@@ -628,5 +644,6 @@
       crossorigin="anonymous"
     ></script>
     <script defer src="./js/mobile-menu.js"></script>
+    <script defer src="./js/moreProf.js"></script>
   </body>
 </html>
