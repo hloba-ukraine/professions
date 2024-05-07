@@ -9,9 +9,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
       moreContent.classList.toggle("closeMore");
       if (moreContent.classList.contains("closeMore")) {
-        svgIcon.setAttribute("href", "./images/defs.svg#icon-Add");
+        svgIcon.setAttribute("href", "/images/defs.svg#icon-Add");
       } else {
-        svgIcon.setAttribute("href", "./images/defs.svg#icon-Minus");
+        svgIcon.setAttribute("href", "/images/defs.svg#icon-Minus");
       }
     });
   });
