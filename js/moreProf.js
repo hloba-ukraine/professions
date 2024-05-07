@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const openButtons = document.querySelectorAll(".openMore");
+  const openButtons = document.querySelectorAll(".group-item");
 
   openButtons.forEach((button) => {
     button.addEventListener("click", function () {
