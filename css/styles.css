@@ -109,10 +109,15 @@ p {
   color: #1d1d1d;
 
   font-size: 14px;
-  font-style: normal;
+
   font-weight: 400;
   line-height: 130%;
   text-transform: uppercase;
+}
+
+.header-link:hover {
+  color: #92c7cf;
+  border-bottom: 4px solid #92c7cf;
 }
 
 .header-border {
@@ -129,6 +134,7 @@ p {
   align-items: center;
 }
 .logo-header {
+  height: 25px;
 }
 .list-header {
   display: flex;
@@ -226,11 +232,15 @@ p {
 .mobile-box {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid var(--Light);
 
   height: 72px;
-  border-bottom: 1px solid var(--Light);
 }
-
+.border-mobile {
+  min-width: 320px;
+  max-width: 390px;
+  margin: 0 auto;
+}
 .menu-container.is-open {
   transform: translateX(0);
 }
@@ -293,17 +303,27 @@ p {
 
 .button-main:hover,
 .button-main:focus {
-  background-color: var(--iris);
+  background: #2396a7;
   color: var(--white);
 }
+.button-main:active {
+  background: #167483;
+}
 .main-title {
+  font-family: "e-Ukraine-Medium";
   color: #162304;
-  /* font-family: "ITC Avant Garde Gothic Demi"; */
+
   font-size: 40px;
-  font-style: normal;
+
   font-weight: 600;
-  line-height: 48px; /* 120% */
+  line-height: 1.2;
   margin-bottom: 16px;
+}
+@media (min-width: 874.98px) {
+  .main-title {
+    font-size: 80px;
+    line-height: 1;
+  }
 }
 .main-text {
   color: #726e62;
@@ -312,7 +332,22 @@ p {
 .main-images {
   margin-bottom: 24px;
 }
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .main-images {
+    content: url(../images/heroimg.png);
+  }
+}
 @media (min-width: 874.98px) {
+  .main-images {
+    content: url(../images/herodecst@1.png);
+  }
+}
+
+@media screen and (min-width: 874.98px) and (min-device-pixel-ratio: 2),
+  screen and (min-width: 874.98px) and (min-resolution: 192dpi),
+  screen and (min-width: 874.98px) and (min-resolution: 2dppx) {
   .main-images {
     content: url(../images/herodecst.png);
   }
@@ -324,6 +359,7 @@ p {
   border-radius: 12px;
   background: #f1f3f6;
   padding: 12px;
+  cursor: pointer;
 }
 .group-item-main {
   display: flex;
@@ -346,6 +382,7 @@ p {
 }
 .group-text {
   margin-right: auto;
+  font-family: "e-Ukraine-Regular";
 }
 .fill-add {
   fill: #5b6b86;
@@ -426,4 +463,12 @@ p {
   margin: 0 auto;
   height: 100%;
   padding: 0 20px;
+}
+
+.current-page {
+  border-bottom: 4px solid #92c7cf;
+}
+.registr-btn {
+  background: #25adc1;
+  color: #fff;
 }
