@@ -64,20 +64,19 @@ p {
 
 .container {
   min-width: 320px;
-  max-width: 390px;
+
   padding: 0 20px;
   margin: 0 auto;
 }
 @media screen and (min-width: 749.98px) {
   .container {
-    max-width: 1920px;
     max-width: 1260px;
   }
 }
 
 .container-header {
   min-width: 320px;
-  max-width: 390px;
+
   padding: 0 20px;
   margin: 0 auto;
   display: flex;
@@ -86,7 +85,6 @@ p {
 }
 @media screen and (min-width: 749.98px) {
   .container-header {
-    max-width: 1920px;
     max-width: 1792px;
   }
 }
