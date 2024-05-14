@@ -466,3 +466,40 @@ p {
   background: #25adc1;
   color: #fff;
 }
+.first-list {
+  margin-bottom: 16px;
+}
+.second-list {
+  margin-bottom: 56px;
+}
+@media (min-width: 749.98px) {
+  .first-list {
+    margin-bottom: 28px;
+  }
+  .second-list {
+    margin-bottom: 314px;
+  }
+}
+.main-images-special {
+  margin-bottom: 24px;
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .main-images-special {
+    content: url(../images/mob@2.jpeg);
+  }
+}
+@media (min-width: 389.98px) {
+  .main-images-special {
+    content: url(../images/decst.jpg);
+  }
+}
+
+@media screen and (min-width: 389.98px) and (min-device-pixel-ratio: 2),
+  screen and (min-width: 389.98px) and (min-resolution: 192dpi),
+  screen and (min-width: 389.98px) and (min-resolution: 2dppx) {
+  .main-images-special {
+    content: url(../images/decst@2.jpg);
+  }
+}
